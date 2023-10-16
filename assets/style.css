@@ -1,0 +1,72 @@
+
+/* EFFECTS FOR THE MARGIN AND PADDING FOR THE WHOLE PAGE*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* EFFECTS FOR THE HEADERS AND FOOTERS */
+
+header,
+footer {
+    width: 100%;
+    height: 120px;
+    background-color: #FC8EAC;
+    color: white;
+}
+
+
+
+/* EFFECTS FOR THE H1 AND H2 HEADINGS ON OUR PAGE */
+
+h1,
+h2 {
+    text-align: center;
+}
+
+
+
+
+/* EFFECTS FOR OUR IMAGE, ALLOWS US TO RESIZE ETC */
+
+img {
+  display: block;
+  height: 50px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+/* THIS SECTION HERE IS TO FORMAT OUR LISTS */
+
+ul {
+  padding-left: 40px;
+  font-size: 20px;
+}
+
+
+
+/*HERE TO FORMAT OUR PARAGRAPH TEXT SO THAT IT IS CENTERED AND A CERTAIN FONT SIZE */
+
+p {
+  text-align: center;
+  font-size: 30px;
+}
+
+
+
+
+/* THIS IS NOW ABOUT ADDING INDIVIDUAL ATTRIBUTES, IN THIS CASE A SHADOW BOX */
+
+.card {
+  width: 80%;
+  margin: 40px auto;
+  border: 5px solid #FF007F;
+  box-shadow: 5px 10px #FFD1DC;
+}
